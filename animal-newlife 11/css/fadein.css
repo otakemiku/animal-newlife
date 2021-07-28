@@ -1,0 +1,23 @@
+/* fadein */
+
+.fadein {
+  opacity: 0;
+  transform: translate(0, 80px);
+  transition: all 1s;
+}
+
+.fadein.left {
+  transform: translate(-80px,0);
+}
+.fadein.right {
+  transform: translate(80px,0);
+}
+.fadein.down {
+  transform: translate(0, -80px);
+}
+
+.fadein.scrollin {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
