@@ -1,0 +1,16 @@
+/* rotateY */
+
+.rotateY{
+	animation-name:rotateYAnime;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes rotateYAnime{
+	from{
+		transform: rotateY(0);
+		}
+	to{
+		transform: rotateY(-360deg);
+		}
+}
